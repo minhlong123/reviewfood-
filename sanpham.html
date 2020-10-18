@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<title>Review food</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">Review Vietnamese food</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="/sanpham/img/phohanoi.jpg" alt="Phở" style="width:100%">
+      <h3>Phở Hà Nội</h3>
+      <p>Phở là món ăn đặc trưng truyền thống trong ẩm thực của người Việt Nam, từ những quán ăn vỉa hè, quán bình dân, trong các nhà hàng sang trọng và trên cả những gánh hàng rong. Mọi người ăn phở như là một món ăn sáng hoặc cũng có thể ăn trưa, ăn chiều hay tối như là một món ăn không thể thiếu hàng ngày cũng như một món ăn đậm đà hương vị.Người ta thích phở bởi cái thứ nước dùng thơm ngon và ngọt ngào kết hợp tinh túy của bao nhiêu nguyên liệu. Những sợi bánh phở nhỏ nhắn, dai dai, mềm mềm, trăng trắng như được ngấm đều bởi nước dùng.</span></p>
+       
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="/sanpham/img/buncha.jpg" alt="Bún chả" style="width:100%">
+      <h3>Bún chả</h3>
+      <p>Bún chả là món ăn truyền thống của người dân Hà Nội, dù đã truyền từ đời này sang đời khác, nhưng cái hương vị bao lâu thì vẫn luôn được giữ gìn, nó không còn đơn giản là một món ăn cho riêng Hà Nội mà đã được người dân cả nước cũng như du khách nước ngoài biết đến, nằm trong danh sách những món ăn phải thử khi đến Việt Nam, và được độc giả National Geographic bình chọn là một trong 10 món ăn đường phố ngon nhất thế giới.Món ăn là sự kết hợp giữa bún tươi mềm mịn với chả nướng và nước chấm cực ngon. Chả ở đây được làm từ thịt vai, băm nhuyễn, nêm nếm gia vị vừa ăn,<span id="dots">...</span><span id="more"> sau đó vo viên và nướng, thịt ba chỉ cũng được làm tương tự. Điều thú vị mà mình thích nhất là chả và thịt được nướng ngay trước quán, khói và mùi thơm cứ phải gọi là cuốn lấy người qua đường, làm họ phải ngoái nhìn và không nỡ rời đi.</span></p>
+      <button onclick="myFunction()" id="myBtn">Xem thêm</button>
+    </div>
+    <div class="w3-quarter">
+      <img src="/sanpham/img/miquang.jpg" alt="Mỳ Quảng" style="width:100%">
+      <h3>Mỳ Quảng</h3>
+      <p>Mì Quảng là một món ăn đặc sản đặc trưng của Quảng Nam và Đà Nẵng , Việt Nam.
+
+        Mì Quảng thường được làm từ bột gạo xay mịn và tráng thành từng lớp bánh mỏng, sau đó thái theo chiều ngang để có những sợi mì mỏng khoảng 5 -10mm.
+        
+        Dưới lớp mì là các loại rau sống, Mì Quảng phải ăn kèm với rau sống 9 vị thì mới tạo nên được hương vị nồng nàn: húng quế, xà lách tươi, cải non mới nụ, giá trắng có thể được trụng chín hoặc để sống, ngò rí , rau răm với hành hoa thái nhỏ và thêm hoa chuối cắt mỏng.Sự cộng hưởng của các loại gia vị ăn kèm như chanh, ớt và nhiều loại rau tươi tạo nên hương vị thanh mát, đậm chất đồng quê của món mỳ Quảng.</p>
+       
+    </div>
+    <div class="w3-quarter">
+      <img src="/sanpham/img/comtam.jpg" alt="Cơm tấm" style="width:100%">
+      <h3>Cơm tấm</h3>
+      <p>Nói đến cơm Tấm thì ai ai cũng biết đây là món ăn truyền thống của người Miền Nam mà đặc biệt là người  dân Sài Gòn. Đây không chỉ là 1 món ăn sáng đầy chất dinh dưỡng mà món ăn độc đáo này bây giờ nó đã có rất nhiều ở quán, nhà hàng và đã trở thành 1 món ăn chính vào bữa trưa hay tối…
+
+        Điều đặc biệt hơn là đây chính là món ăn đã đem về chiến thắng cho chị Christine Hà người Mỹ gốc Việt, giúp chị dành được danh hiệu Vua đầu bếp nước Mỹ mà và đây cũng là lần đầu tiên người Mỹ gốc Việt đã dành chiến thắng trong cuộc thi danh giá này.Nét độc đáo nhất đó là Cơm Tấm được làm từ những hạt gạo vỡ nhỏ, cho gạo vào cái niêu đất và được nấu bằng bếp than củi, khi chín cơm Tấm có hương vị thơm ngon<span id="dots2">...</span><span id="more2"> và những hạt gạo tơi khô hấp dẫn người thưởng thức. Một đĩa cơm Tấm được ăn kèm với Sườn, Bì, Chả, Trứng, dưa chuột, cà chua và nước mắm sẽ khiến cho bạn phải trầm trồ đây mới chính là hương vị của người Việt Nam.</span></p>
+        <button onclick="myFunction2()" id="myBtn2">Xem thêm</button> 
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="/sanpham/img/banhxeo.jpg" alt="Bánh xèo" style="width:100%">
+      <h3>Bánh xèo</h3>
+      <p>Bánh xèo vốn là một món ăn đặc sản Việt Nam. Mỗi vùng miền lại có cách chế biến bánh xèo riêng, mang đến hương vị độc đáo riêng.Bánh xèo thường được bán rất nhiều vào mùa mưa, bởi lẽ từng chiếc bánh giòn rụm, nóng hổi được chế biến ngay tại chỗ dễ khiến người ta thấy ấm bụng. Tùy theo đặc trưng vùng miền mà người ta sẽ làm nhân bánh bằng tôm, thịt bò, thịt heo…, có vùng thêm nấm và giá để tăng thêm hương vị thơm ngon. Bánh xèo được ví như là một trong những món ăn vặt ngon nhất Việt Nam được nhiều du khách trong và ngoài nước ưa thích, bởi nó như một món quà quê dân dã, dễ ăn, dễ nghiền.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/sanpham/img/banhmihoian.jpg" alt="Bánh mì Hội An" style="width:100%">
+      <h3>Bánh mì Hội An</h3>
+      <p>Khi tới Hội An, du khách luôn ấn tượng với những chiếc bánh mì, đó là món ăn đường phố ngon theo cách đặc biệt, mà chỉ người ăn mới có thể cảm nhận được. Được du khách đánh giá là một trong những món ăn vặt ngon nhất Việt Nam. Bánh mì vừa thể hiện được cái mộc mạc và giản dị, vừa thể hiện được sự đậm đà tinh tế của ẩm thực Việt Nam.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/sanpham/img/bunbo.jpg" alt="Bún bò Huế" style="width:100%">
+      <h3>Bún bò Huế</h3>
+      <p>Nhắc tới ẩm thực xứ Huế mà không nhắc đến bún bò Huế thì quả là một điều thiếu sót. Món ăn vang danh ba miền và trên khắp thế giới bởi hương vị đặc trưng của mảnh đất cố đô. Với hương vị đậm đà, khoác lên mình nét đặc trưng mà chỉ riêng người xứ Huế mới có. Nó xứng đáng được xếp vào top món ăn ngon nhất Việt Nam mà bạn phải thử ít nhất một lần trong đời.Tô bún bò trông vẻ đạm bạc mà cũng chẳng kém phần thanh lịch với nước bún trong, lộ ra những sợi bún trắng nằm xếp lớp; vài lát ớt màu đỏ nổi bật trên nền xanh pha trắng của rau hành, quyện với những váng sao của tinh dầu sả. Miếng giò heo trắng ngả vàng với lớp da mỏng ẩn mình trong cá màu nâu đỏ với những đường vân vàng nhạt của lát thịt bò bắp.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/sanpham/img/goitom.jpg" alt="Gỏi cuốn tôm thịt" style="width:100%">
+      <h3>Gỏi cuốn tôm thịt</h3>
+      <p>Gỏi cuốn cùng các món cuộn, các món gỏi, nộm do tính chất tươi sống của rau nên cũng dễ ăn, là món khai vị, món ăn chơi rất tốt. Cắn một miếng gỏi cuốn, cảm nhận vị dai của bánh tráng, vị béo đậm đà của thịt ba chỉ trộn lẫn vị ngọt của tôm luộc, thêm một chút mặn mà của nước chấm, cái mát lạnh, cay nồng nơi đầu lưỡi của rau sống tạo thành một bản hợp tấu làm dậy lên các cung bậc vị giác.Gỏi cuốn có thể dùng làm điểm tâm sang, có thể là món ăn chơi buổi trưa… Từ người già đến người trẻ ai cũng có thể thưởng thức món ăn này.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Một số food reviewer nổi tiếng</h3><br>
+     
+    <div class="w3-padding-32 align-left">
+      <a href="https://www.youtube.com/channel/UCfuqGU270K146MNlL5vrOlw"  >Ninh Tito</a>
+      <span>- 749.000 followers: Chủ yếu review ẩm thực đường phố, đôi khi sẽ là nhà hàng và nhà hàng của khách sạn trong những chuyến đi du lịch</span>
+      <br>
+      <a href="https://www.youtube.com/channel/UCeB29zGi9E5SdtTsUoEnEAg">Sập Channel</a>
+      <span>có tới 55.700 followers: Kênh của Ăn sập Sài Gòn đủ màu sắc từ street food đến hàng quán hạng sang, từ những bức hình chụp khoảnh khắc ngẫu nhiên đến album chụp thức ăn theo phong cách flatlay thời thượng</span>
+    </br>
+    <br>
+    <a href="https://www.youtube.com/channel/UCUsk1z-BGZ7xAMmQ60eMLxQ">WOOSSI TV</a>
+    <span>tên thật là Park Woo Sung là một food Blogger người Hàn, đã sinh sống ở Việt Nam hơn 10 năm. Anh chàng rất đam mê ẩm thực cũng như am hiểu về tính cách, con người Việt Nam. Nổi tiếng với hàng loạt vlog review food với sự góp mặt cùng các streamer đình đám , những video của anh luôn góp mặt trong top trend của Youtube. Hiện tại anh cũng sở hữu lượng fans  khủng lồ với hơn 1,5 triệu subcribes trên kênh Youtube và 768K follow-ers trên fanpage của mình.</span>
+  </br>
+    </div>
+  </div>
+  <hr>
+  
+   
+<script src="./sanpham.js"></script>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
